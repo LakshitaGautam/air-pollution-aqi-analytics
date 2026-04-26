@@ -7,20 +7,11 @@ learning-based AQI forecasting for 2026.
 Built as part of the Fundamentals of Data Analytics Lab at Jaypee Institute 
 of Information Technology, Noida (B.Tech CSE, Sem 4, 2025–26).
 
----
-
-## 📊 Project Overview
-
 India consistently ranks among the most polluted countries globally. This 
 project addresses the lack of structured, visual, and predictive air quality 
 analysis by building an end-to-end analytics pipeline — from raw data 
 preprocessing to an interactive multi-section HTML dashboard.
 
----
-
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
 |------|---------|
 | Python | Core programming language |
 | Pandas | Data ingestion, cleaning, aggregation |
@@ -30,9 +21,9 @@ preprocessing to an interactive multi-section HTML dashboard.
 | Scikit-learn | Polynomial Regression for ML forecasting |
 | HTML/CSS/JavaScript | Self-contained dashboard output |
 
----
 
-## 📁 Dataset
+
+ Dataset
 
 - **Source:** Central Pollution Control Board (CPCB), India
 - **File:** `AQI.csv`
@@ -41,9 +32,9 @@ preprocessing to an interactive multi-section HTML dashboard.
 - **Columns:** country, state, city, last_update, pollutant_id, 
   pollutant_min, pollutant_max, pollutant_avg
 
----
 
-## ⚙️ Key Features
+
+ Key Features
 
 - **Data Preprocessing:** Datetime parsing, temporal feature engineering 
   (year, month, quarter), null handling, geographic region mapping, 
@@ -58,9 +49,7 @@ preprocessing to an interactive multi-section HTML dashboard.
 - **Self-contained Dashboard:** Single HTML file output with embedded 
   Plotly JS, custom CSS, and vanilla JS interactivity — no server needed
 
----
-
-## 🔍 Key Findings
+ Key Findings
 
 - North region is the most polluted across all years
 - Island territories maintain the cleanest air quality
@@ -69,9 +58,7 @@ preprocessing to an interactive multi-section HTML dashboard.
   inversion and stubble burning
 - Many high-risk states projected to see stable or worsening AQI in 2026
 
----
-
-## 🚀 How to Run
+ How to Run
 
 1. Clone the repository
    git clone https://github.com/LakshitaGautam/air-pollution-aqi-analytics.git
